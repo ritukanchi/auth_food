@@ -1,0 +1,29 @@
+{
+	"name": "sveltekit-authjs-example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.1.0",
+		"@sveltejs/kit": "^2.3.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.1",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "^4.2.8",
+		"vite": "^5.0.11"
+	},
+	"type": "module",
+	"dependencies": {
+		"@auth/core": "^0.20.0",
+		"@auth/mongodb-adapter": "^2.5.2",
+		"@auth/sveltekit": "^0.5.3",
+		"mongodb": "^6.5.0",
+		"nodemailer": "^6.9.8"
+	}
+}
